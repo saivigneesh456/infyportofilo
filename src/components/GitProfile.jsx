@@ -10,7 +10,6 @@ import Experience from './experience';
 import Certification from './certification';
 import Education from './education';
 import Project from './project';
-import Blog from './blog';
 import Footer from './footer';
 import {
   genericError,
@@ -208,11 +207,6 @@ const GitProfile = ({ config }) => {
                         externalProjects={sanitizedConfig.externalProjects}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
-                      <Blog
-                        loading={loading}
-                        googleAnalytics={sanitizedConfig.googleAnalytics}
-                        blog={sanitizedConfig.blog}
-                      />
                     </div>
                   </div>
                 </div>
@@ -297,18 +291,6 @@ GitProfile.propTypes = {
         to: PropTypes.string,
       })
     ),
-    blog: PropTypes.shape({
-      source: PropTypes.string,
-      username: PropTypes.string,
-      limit: PropTypes.number,
-    }),
-    googleAnalytics: PropTypes.shape({
-      id: PropTypes.string,
-    }),
-    hotjar: PropTypes.shape({
-      id: PropTypes.string,
-      snippetVersion: PropTypes.number,
-    }),
     themeConfig: PropTypes.shape({
       defaultTheme: PropTypes.string,
       disableSwitch: PropTypes.bool,
