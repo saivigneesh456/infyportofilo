@@ -31,7 +31,7 @@ Download the ZIP file or clone the repo
 
   ```shell
   git clone https://github.com/arifszn/gitprofile.git
-  cd gitprofile
+  cd filename
   ```
 
 - Install dependencies.
