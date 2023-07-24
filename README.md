@@ -48,8 +48,3 @@ Download the ZIP file or clone the repo
 
 - Finally, visit [`http://localhost:5173/reponame/`](http://localhost:5173/reponame/) from your browser.
 
-
-
-## 📄 License
-
-[MIT](https://github.com/arifszn/gitprofile/blob/main/LICENSE)
